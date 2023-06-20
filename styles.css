@@ -1,0 +1,147 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1300px;
+    
+  }
+  /*<----------Header----------->*/
+  .navheader {
+    border-bottom: 2px solid seashell;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: .1%;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+    background-color: black; 
+  }
+  
+  .navheader ul {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .navheader li {
+    text-decoration: underline;
+    margin: 0 10px;
+  }
+  
+  
+  .logo {
+    height: 50px;
+    margin: 0 10px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /*<-------------Main Section------------>*/
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    top: 65px;
+    min-height: 700px;
+  }
+  
+  .missionstat {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    top: 310px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2px;
+    background-color: black;
+  }
+  
+  .missionstat h2 {
+    margin-top: 40px;
+  }
+  
+  /*<---------------Tea Section------------>*/
+  
+  .tea {
+    text-align: center;
+  }
+  
+  .teaopts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .teaopts img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .teaopts figure {
+    margin: 25px 25px 25px 25px;
+  }
+  
+  .teaopts img:hover {
+    cursor: pointer;
+  }
+  
+  /*<-------------Location Section-------------->*/
+  
+  .locationmain {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .locationmain img {
+    min-height: 500px;
+  }
+  
+  .locationmain h1 {
+    position: absolute;
+    opacity: 1;
+    top: 5%;
+  }
+  
+  .locations {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    
+  }
+  
+  .area {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 5px 40px 5px 40px;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  /*<------------footer------------------>*/
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .info #copy {
+    text-align: left;
+  }
+  
